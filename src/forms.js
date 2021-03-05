@@ -32,10 +32,12 @@ export default class Forms extends React.Component{
     render()
     {
         return(
-            <div>          
-                <input type="text" name="user" onChange={(e)=>{this.setState({user:e.target.value})}}></input>
+            <div> 
+                <h1>username        
+                <input type="text" name="user" onChange={(e)=>{this.setState({user:e.target.value})}}></input></h1>
                 <p style={{color:"red",fontSize:"12px"}}>{this.state.nameerror}</p>
-                <input type="password" name="password" onChange={(e)=>{this.setState({password:e.target.value})}}></input>
+                <h2>password
+                <input type="password" name="password" onChange={(e)=>{this.setState({password:e.target.value})}}></input></h2>
                 <p style={{color:"red",fontSize:"12px"}}>{this.state.passworderror}</p>
                 <button onClick={()=>this.submit()}>submit form</button>
             </div>
