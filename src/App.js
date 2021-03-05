@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-         <h1>kajal dhiman</h1>
+         <h1>complere infosystem</h1>
          <Router>
            <Link to="">Home   </Link>
            <Link to="/profile">  Profile</Link>
