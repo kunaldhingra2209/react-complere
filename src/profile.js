@@ -27,7 +27,7 @@ class profile extends React.Component{
             <div>
                 {
                 this.state.show ? 
-                <h1>hello {this.state.name}</h1>
+                <h1>Menu {this.state.name}</h1>
                 // <h1>email: {this.state.email}</h1>
                 :null
                 

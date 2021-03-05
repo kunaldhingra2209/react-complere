@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './header'
 export default class Forms extends React.Component{
     constructor()
     {
@@ -31,8 +32,7 @@ export default class Forms extends React.Component{
     render()
     {
         return(
-            <div>
-                <h1>form hamdling</h1>
+            <div>          
                 <input type="text" name="user" onChange={(e)=>{this.setState({user:e.target.value})}}></input>
                 <p style={{color:"red",fontSize:"12px"}}>{this.state.nameerror}</p>
                 <input type="password" name="password" onChange={(e)=>{this.setState({password:e.target.value})}}></input>

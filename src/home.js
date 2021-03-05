@@ -3,7 +3,7 @@ export default class Home extends React.Component{
     render(){
         return(
             <div>
-            <h1>home component</h1>
+            <h1>hello kunal</h1>
             </div>
         )
     }
